@@ -12,6 +12,7 @@
       line-height: 1.6;
       color: #333;
     }
+
     /* Hero section */
     .hero {
       background: url('102.png') no-repeat center center/cover;
@@ -34,6 +35,32 @@
       font-size: 1.3rem;
       max-width: 800px;
       text-shadow: 1px 1px 6px black;
+      margin-bottom: 25px;
+    }
+
+    /* Buttons */
+    .contact-buttons {
+      display: flex;
+      gap: 15px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .contact-buttons a {
+      text-decoration: none;
+      padding: 12px 20px;
+      border-radius: 8px;
+      background: #ffd700;
+      color: #000;
+      font-weight: bold;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      transition: all 0.3s ease;
+      box-shadow: 0 3px 10px rgba(0,0,0,0.4);
+    }
+    .contact-buttons a:hover {
+      background: #e6c200;
+      transform: translateY(-3px);
     }
 
     /* Features section */
@@ -83,6 +110,14 @@
   <section class="hero">
     <h1>Vũ An Khang</h1>
     <p>Chào mừng bạn đến với website cá nhân của mình. Đây là nơi mình chia sẻ mục tiêu, đam mê và hành trình công nghệ - tiền mã hoá.</p>
+    
+    <div class="contact-buttons">
+      <a href="khangcutmeo@gmail.com
+"><i class="fas fa-envelope"></i> Email</a>
+      <a href="https:https://www.facebook.com/vominhthien.vominhthien.9" target="_blank"><i class="fab fa-facebook"></i> Facebook</a>
+      <a href="https://x.com/Khang01012002" target="_blank"><i class="fab fa-x-twitter"></i> X</a>
+      <a href="https://t.me/@KAQ2002" target="_blank"><i class="fab fa-telegram"></i> Telegram</a>
+    </div>
   </section>
 
   <!-- Features -->
